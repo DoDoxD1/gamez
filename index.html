@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Gamez-Play fun mini games</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+      /* Carousel styling */
+      #introCarousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 100vh;
+      }
+
+      .carousel-item:nth-child(1) {
+        background-image: url("./images/simonn.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(2) {
+        background-image: url("./images/pig.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(3) {
+        background-image: url("./images/guess.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #introCarousel {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Main Navigation-->
+    <header>
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark d-none d-lg-block"
+        style="z-index: 2000"
+      >
+        <div class="container-fluid">
+          <!-- Navbar brand -->
+          <a
+            class="navbar-brand nav-link"
+            target="_blank"
+            href="https://mdbootstrap.com/docs/standard/"
+          >
+            <strong>GAMEZ</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-collapse-init
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  target="_blank"
+                  href="https://guess-game-arihant.netlify.app/"
+                  >Guess Game</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://pig-game-arihant.netlify.app/"
+                  rel="nofollow"
+                  target="_blank"
+                  >Pig Game</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://simon-game-arihant.netlify.app/"
+                  target="_blank"
+                  >Simon Game</a
+                >
+              </li>
+            </ul>
+
+            <ul class="navbar-nav list-inline">
+              <!-- Icons -->
+              <li class="">
+                <a
+                  class="nav-link"
+                  href="https://www.linkedin.com/in/arihant-jain-0454ab184/"
+                  rel="nofollow"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://github.com/DoDoxD1"
+                  rel="nofollow"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Carousel wrapper -->
+      <div
+        id="introCarousel"
+        class="carousel slide carousel-fade shadow-2-strong"
+        data-mdb-carousel-init
+      >
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <li
+            data-mdb-target="#introCarousel"
+            data-mdb-slide-to="0"
+            class="active"
+          ></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+              <div
+                class="d-flex justify-content-center align-items-center h-100"
+              >
+                <div class="text-white text-center" data-mdb-theme="dark">
+                  <h1 class="mb-3">Simon Game</h1>
+                  <h5 class="mb-4">Let's test your memory!</h5>
+                  <a
+                    class="btn btn-outline-light btn-lg m-2"
+                    data-mdb-ripple-init
+                    href="https://simon-game-arihant.netlify.app/"
+                    role="button"
+                    rel="nofollow"
+                    target="_blank"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+              <div
+                class="d-flex justify-content-center align-items-center h-100"
+              >
+                <div class="text-white text-center" data-mdb-theme="dark">
+                  <h1 class="mb-3">Pig Game</h1>
+                  <h5 class="mb-4">Play the classic pig game(dice)!</h5>
+                  <a
+                    class="btn btn-outline-light btn-lg m-2"
+                    data-mdb-ripple-init
+                    href="https://pig-game-arihant.netlify.app/"
+                    role="button"
+                    rel="nofollow"
+                    target="_blank"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+              <div
+                class="d-flex justify-content-center align-items-center h-100"
+              >
+                <div class="text-white text-center" data-mdb-theme="dark">
+                  <h1 class="mb-3">Guess Game</h1>
+                  <h5 class="mb-4">
+                    Guess the correct number and win the game!
+                  </h5>
+                  <a
+                    class="btn btn-outline-light btn-lg m-2"
+                    data-mdb-ripple-init
+                    href="https://guess-game-arihant.netlify.app/"
+                    role="button"
+                    rel="nofollow"
+                    target="_blank"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <a
+          class="carousel-control-prev"
+          href="#introCarousel"
+          role="button"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#introCarousel"
+          role="button"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Carousel wrapper -->
+    </header>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
